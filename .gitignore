@@ -1,0 +1,35 @@
+# Build and dependency output
+**/build/
+**/.dart_tool/
+**/.gradle/
+**/coverage/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# IDE and editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Logs
+*.log
+
+# Android secrets and local configuration
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/google-services.json
+
+# Build artefacts
+**/*.apk
+**/*.aab
+**/*.symbols
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
