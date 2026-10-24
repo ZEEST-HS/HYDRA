@@ -20,7 +20,7 @@ The source is a small, readable Flutter demo: about 44 Dart files (~140 KB) impl
 
 We therefore **reuse the product intent and proven UX ideas** (camera scan → cart → receipt, ESC/POS printing approach) and **rebuild the application on a transactional SQLite foundation**. No source file is copied, because the repository grants no license.
 
-The new application is called **HYDRA POS** and lives in `hydra_pos/`. The untouched audit clone remains in `repo_audit/`.
+The new application is called **HYDRA POS** and now lives at the repository root. The untouched audit clone was kept outside the repository as reference material.
 
 ---
 
@@ -30,7 +30,7 @@ The new application is called **HYDRA POS** and lives in `hydra_pos/`. The untou
 
 Implication for this project:
 
-- We do **not** copy source code from `repo_audit/` into the new app.
+- We do **not** copy source code from the reference audit clone into the new app.
 - We reproduce only non-copyrightable ideas and generic patterns (feature set, scanner flow, ESC/POS command concept), and we write a new implementation.
 - If you own the source repository, you may add a license and explicitly authorize reuse; otherwise the clean-room approach above is the safe one.
 - The new project should carry its own license chosen by you. Until then, do not distribute it publicly.
@@ -229,7 +229,7 @@ Order is unchanged from the brief. Foundation precedes operations because every 
 
 ## 8. Deliverables
 
-- Working app in `hydra_pos/`.
+- Working app at the repository root (`lib/`, `android/`, `test/`, `assets/`).
 - `docs/PHASE1_AUDIT.md` (this file), `docs/ARCHITECTURE.md`, `docs/DATABASE.md`, `docs/CATALOG.md`, `docs/PRINTING.md`, `docs/TESTING.md`, `docs/STATUS.md`, `docs/USER_GUIDE.md`.
-- Tests under `hydra_pos/test/`.
-- This audit clone (`repo_audit/`) preserved for reference; not part of the build.
+- Tests under `test/`.
+- The audit clone is preserved outside the repository for reference; it is not part of the build or the licence.

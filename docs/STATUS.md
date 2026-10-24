@@ -157,9 +157,8 @@ Ces points figurent aussi dans la checklist manuelle de [TESTING.md](TESTING.md)
 - **Base de données** : schéma v3 ; les migrations v1 → v3 et v2 → v3 sont
   testées. Une base créée par une version future est refusée avec un message
   explicite.
-- **Dépôt Git** : le dossier `hydra_pos` n'a pas été initialisé en dépôt Git
-  pendant le développement ; aucun historique de commits n'accompagne les
-  fichiers.
+- **Dépôt Git** : le code est versionné à la racine du dépôt et publié sur
+  GitHub (`Mpsy19/HYDRA`), sous licence MIT.
 
 ## Sécurité et données
 
@@ -181,7 +180,8 @@ Ces points figurent aussi dans la checklist manuelle de [TESTING.md](TESTING.md)
 2. Tester une imprimante thermique 58 mm et 80 mm, puis ajuster la mise en page.
 3. Configurer la signature de publication et un identifiant d'application
    définitif.
-4. Initialiser un dépôt Git et versionner le code.
+4. Vérifier la licence et la structure du dépôt avant toute distribution
+   publique.
 5. Faire une passe de validation avec un commerçant : vocabulaire, flux de
    caisse, tickets et rapports.
 6. Ajouter, si nécessaire, l'export de sauvegarde vers un stockage externe et

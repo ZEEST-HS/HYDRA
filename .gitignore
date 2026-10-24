@@ -1,35 +1,55 @@
-# Build and dependency output
-**/build/
-**/.dart_tool/
-**/.gradle/
-**/coverage/
-**/.flutter-plugins
-**/.flutter-plugins-dependencies
+# --- Flutter / Dart ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+migrate_working_dir/
+.widget_preview/
 
-# IDE and editor files
-.idea/
-*.iml
-*.ipr
-*.iws
-.vscode/
+# Build output
+/build/
+/coverage/
+app.*.symbols
+app.*.map.json
 
-# Logs
-*.log
-
-# Android secrets and local configuration
+# --- Android ---
+/android/app/debug
+/android/app/profile
+/android/app/release
 **/local.properties
 **/key.properties
 **/*.jks
 **/*.keystore
 **/*.p12
 **/google-services.json
+**/.gradle/
+**/captures/
+**/gradlew
+**/gradlew.bat
+**/gradle-wrapper.jar
 
-# Build artefacts
+# --- IDE and editor files ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- Build artefacts ---
 **/*.apk
 **/*.aab
 **/*.symbols
 
-# Operating system files
+# --- Operating system files ---
 .DS_Store
 Thumbs.db
 desktop.ini
