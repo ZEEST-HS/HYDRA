@@ -158,7 +158,7 @@ Ces points figurent aussi dans la checklist manuelle de [TESTING.md](TESTING.md)
   testées. Une base créée par une version future est refusée avec un message
   explicite.
 - **Dépôt Git** : le code est versionné à la racine du dépôt et publié sur
-  GitHub (`Mpsy19/HYDRA`), sous licence MIT.
+  GitHub (`ZEEST-HS/HYDRA`), sous licence MIT.
 
 ## Sécurité et données
 
